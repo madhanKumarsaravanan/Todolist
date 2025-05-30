@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGO_URI = "mongodb+srv://madhan16032003:WgkH5mJ31rGfPuxK@cluster0.7ukqmjq.mongodb.net/assignment";
+const MONGO_URI = "mongodb+srv://madhan16032003:***@cluster0.7ukqmjq.mongodb.net/assignment";
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
